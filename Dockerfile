@@ -1,4 +1,4 @@
-FROM wordpress:6.1-php8.2-fpm
+FROM wordpress:6.2.0-php8.2-fpm
 
 COPY ./otherz /var/www/html/
 COPY ./plugins /var/www/html/wp-content/plugins
